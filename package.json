@@ -1,0 +1,7 @@
+{
+      "name": "maira-forge-worker",
+      "version": "1.0.0",
+      "private": true,
+      "scripts": { "dev": "wrangler dev", "deploy": "wrangler deploy", "tail": "wrangler tail" },
+      "devDependencies": { "wrangler": "^3.80.0", "typescript": "^5.5.0", "@cloudflare/workers-types": "^4.20240620.0" }
+    }

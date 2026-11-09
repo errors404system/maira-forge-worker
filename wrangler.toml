@@ -1,0 +1,9 @@
+name = "maira-forge-server"
+    main = "src/index.ts"
+    compatibility_date = "2024-06-01"
+    # Deploy korle Cloudflare tomake ei URL dibe, seta Maira app-er Config.kt-te bosabe:
+    # https://maira-forge-server.<tomar-subdomain>.workers.dev
+    [vars]
+    GROQ_MODEL = "llama-3.3-70b-versatile"
+    [observability]
+    enabled = true
